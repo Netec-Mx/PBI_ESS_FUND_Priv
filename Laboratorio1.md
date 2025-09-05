@@ -5,22 +5,22 @@
 En este primer ejercicio se le presenta el conjunto de datos que será utilizado a lo largo del curso, con base en estos datos se planea elaborar un reporte que represente el estatus de las ventas dentro de la empresa ficticia *AdvertureWorks*.
 
 ## Objetivo
-
-> Importar el archivo y hacer un análisis preliminar de como se conforman los datos y la calidad de los mismos.
+Al finalizar la práctica, serás capaz de:
+- Importar el archivo y hacer un análisis preliminar de cómo se conforman los datos y la calidad de los mismos.
 
 ## Tiempo estimado
 
-> Dependiendo la experiencia previa que tenga Power BI, puede que algunas de estas actividades las pueda realizar en mas o menos tiempo, pero el tiempo aproximado para analizar y realizar el laboratorio es de aproximadamente 20 minutos.
+Dependiendo la experiencia previa que tenga Power BI, puede que algunas de estas actividades las pueda realizar en más o menos tiempo, pero el tiempo aproximado para analizar y realizar el laboratorio es de 20 minutos.
 
-## Actividades a realizar
+## Objetivo visual
 
 ![Actividades a realizar.](./imgs/Diagrama%20Ejercicio%201.png)
 
 ## Obtener los datos
 
-Antes de poder crear el reporte, es necesario tener acceso a los datos y, por lo tanto, poder manipularlos para crear nuestro reporte.
+Antes de crear el reporte, es necesario tener acceso a los datos y, por lo tanto, poder manipularlos para crear nuestro reporte.
 
-Para ello, recordemos que la información puede venir de distintos lugares, archivos locales, archivos remotos (en ubicaciones de la empresa o bien en internet), servicios especializados (Servicios de Microsoft, AWS, Google, entre un largo etcetera).
+Para ello, recordemos que la información puede venir de distintos lugares: archivos locales, archivos remotos (en ubicaciones de la empresa o bien en internet), servicios especializados (Servicios de Microsoft, AWS, Google, entre un largo etcétera).
 
 En ese sentido para este primer laboratorio, usaremos un archivo de Excel para obtener la información, el archivo se encuentra en la carpeta documentos de la maquina virtual. Lo identificaras como _**AdventureWorks Sales.xlsx**_.
 
