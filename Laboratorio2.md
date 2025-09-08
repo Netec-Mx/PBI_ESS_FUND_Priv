@@ -41,85 +41,90 @@ En este paso, cambiarás el nombre de las consultas. Algunas de ellas manejan la
 
 
 ### Tarea 2. Transformar las consultas
-* Consulta ColorFormats 
+* __Consulta ColorFormats__ 
   
     ![Consulta ColorFormats inicio.](./imgs/Lab-22.png)
 
 Recordando las observaciones que lograste detectar del ejercicio pasado, ahora realizarás las transformaciones necesarias para dejar los datos listos. En ese sentido y con el fin de homologar los pasos para transformar los datos, se enlistan las acciones a realizar.
-    - Hay 2 filas vacías por lo que es necesario eliminarlas.
-    - Hay dos filas que parecen ser potenciales nombres de encabezados de columna, pero en ese sentido los encabezados que deseamos para la columnas son: **Color**, **Background Color Format**, **Font Color Format**. Por lo que la otra fila se puede eliminar.  
+- Hay dos filas vacías por lo que es necesario eliminarlas.
+- Hay dos filas que parecen ser potenciales nombres de encabezados de columna, pero en ese sentido los encabezados que deseamos para la columnas son: **Color**, **Background Color Format**, **Font Color Format**. Por lo que la otra fila se puede eliminar.  
     ![Consulta ColorFormats resultado.](./imgs/Lab-23.png)
 
 
 ---
 
 
-* Consulta Salesperson:
+__Consulta Salesperson__
 
 ![Consulta Salesperson inicio.](./imgs/Lab-24.png)
 
-* Esta es una consulta con mas contenido y mas cargada de columnas, por lo que necesitamos acotar cuales son las columnas que necesitamos mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar que columnas mantener.
-    * Hay dos filas con valores vacíos que no son necesarias, por lo que hay que cambiarlas.
-    * La fila que potencialmente tiene los valores que queremos usar como encabezados de columna, notamos que tiene nombres con información repetitiva (DimEmployee[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vamos a promoverlos como encabezado y, posteriormente, seleccionaremos solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
-        * DimEmployee[EmployeeKey]
-        * DimEmployee[EmployeeNationalIDAlternateKey]
-        * DimEmployee[FirstName]
-        * DimEmployee[LastName]
-        * DimEmployee[Title]
-        * DimEmployee[EmailAddress]
-     * Nos piden combinar las columnas FirstName y LastName en una sola, combinemosla y llamemosla como Sales Person.
-     * Para simplificar la lectura nos piden renombrarla columna EmployeeNationalIDAlternateKey y cambiarla por EmployeeID.
-     Nos piden por ultimo cambiar la columna EmailAddress por UPN.
+Esta es una consulta con más contenido y más cargada de columnas, por lo que necesitamos acotar cuáles son las columnas que necesitamos mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
+- Hay dos filas con valores vacíos que son innecesarias, por lo que hay que cambiarlas.
+- La fila que contiene, potencialmente, los valores que queremos usar como encabezados de columna tiene nombres con información repetitiva (DimEmployee[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vas a promoverlos como encabezado y, posteriormente, seleccionarás solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
+    * DimEmployee[EmployeeKey]
+    * DimEmployee[EmployeeNationalIDAlternateKey]
+    * DimEmployee[FirstName]
+    * DimEmployee[LastName]
+    * DimEmployee[Title]
+    * DimEmployee[EmailAddress]
+
+Se pide combinar las columnas FirstName y LastName en una sola, combínala y nómbrala Sales Person.
+Para simplificar la lectura, se pide renombrarla columna EmployeeNationalIDAlternateKey por EmployeeID.
+Se pide, por último, cambiar la columna EmailAddress por UPN.
+
 ![Consulta Salesperson resultado.](./imgs/Lab-25.png)     
 
 
 ---
 
 
-* Consulta SalespersonRegion:  
+__Consulta SalespersonRegion__  
 ![Consulta SalespersonRegion inicio.](./imgs/Lab-26.png)
-* Solamente tenemos que quitar las filas en blanco y promover los encabezados, cambiando el nombre para quitar el texto que no nos sirve.  
+
+* Solamente tienes que quitar las filas en blanco y promover los encabezados, cambiando el nombre para quitar el texto que no sirve.  
 ![Consulta SalespersonRegion resultado.](./imgs/Lab-27.png)
 
 
 ---
 
 
-* Consulta Product:
+__Consulta Product__
 ![Consulta Product inicio.](./imgs/Lab-28.png)
-* Esta es una consulta con mas contenido y mas cargada de columnas, por lo que necesitamos acotar cuales son las columnas que necesitamos mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar que columnas mantener.
-    * Hay dos filas con valores vacíos que no son necesarias, por lo que hay que eliminarlas.
-    * La fila que potencialmente tiene los valores que queremos usar como encabezados de columna, notamos que tiene nombres con información repetitiva (DimProduct[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vamos a promoverlos como encabezado y, posteriormente, seleccionaremos solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
-        * DimProduct[ProductKey]
-        * DimProduct[EnglishProductName]
-        * DimProduct[StandardCost]
-        * DimProduct[FinishedGoodsFlag]
-        * DimProduct[Color]
-    * Filtra el contenido de la columna FinishedCoodsFlag para mostrar solamente los productos terminados.
-    * Renombra la columna EnglishProductName a Product
+
+Esta es una consulta con más contenido y carga de columnas, por lo que necesitas acotar cuales son las columnas que necesitamos mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
+- Hay dos filas con valores vacíos que son nnecesarias, por lo que hay que eliminarlas.
+- La fila que potencialmente tiene los valores que queremos usar como encabezados de columna, notamos que tiene nombres con información repetitiva (DimProduct[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vamos a promoverlos como encabezado y, posteriormente, seleccionaremos solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
+    * DimProduct[ProductKey]
+    * DimProduct[EnglishProductName]
+    * DimProduct[StandardCost]
+    * DimProduct[FinishedGoodsFlag]
+    * DimProduct[Color]
+- Filtra el contenido de la columna FinishedCoodsFlag para mostrar solamente los productos terminados.
+- Renombra la columna EnglishProductName a Product
 ![Consulta Product resultado.](./imgs/Lab-29.png)
 
 
 ---
 
 
-* Consulta Reseller:
+__Consulta Reseller__
 
 ![Consulta Reseller inicio.](./imgs/Lab-210.png)
-* Esta es una consulta con mas contenido y mas cargada de columnas, por lo que necesitamos acotar cuales son las columnas que necesitamos mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar que columnas mantener.
+Esta es una consulta con mas contenido y mas cargada de columnas, por lo que necesitamos acotar cuales son las columnas que necesitamos mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar que columnas mantener.
     * Hay dos filas con valores vacíos que no son necesarias, por lo que hay que eliminarlas.
     * La fila que potencialmente tiene los valores que queremos usar como encabezados de columna, notamos que tiene nombres con información repetitiva (DimReseller[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vamos a promoverlos como encabezado y, posteriormente, seleccionaremos solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
         * DimReseller[ResellerKey]
         * DimReseller[BusinessType]
         * DimReseller[ResellerName]
     * Recuerda que esta tabla, los valores que se presentaban en la columna BussinessType tenían inconsistencia en la terminología por lo que homologa los valores para Warehouse y Ware house de una sola manera.
+    
 ![Consulta Reseller resultado.](./imgs/Lab-211.png)
 
 
 ---
 
 
-* Consulta Region:
+__Consulta Region__
 
 ![Consulta Region inicio.](./imgs/Lab-212.png)
 * Solamente tenemos que quitar las filas en blanco y promover los encabezados, cambiando el nombre para quitar el texto que no nos sirve.
@@ -130,7 +135,7 @@ Recordando las observaciones que lograste detectar del ejercicio pasado, ahora r
 ---
 
 
-* Consulta Sales:
+__Consulta Sales__
 
 ![Consulta Sales inicio.](./imgs/Lab-214.png)
 * Esta es una consulta con mas contenido de todas las que hemos visto hasta el momento aunque no necesariamente la mas cargada de columnas, pero independientemente de eso, necesitamos acotar cuales son las columnas que necesitamos mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar que columnas mantener.
@@ -154,7 +159,7 @@ Recordando las observaciones que lograste detectar del ejercicio pasado, ahora r
 ---
 
 
-* Consulta Targets:
+__Consulta Targets__
 
 ![Consulta Targets inicio.](./imgs/Lab-216.png)
 * Esta es una consulta que podemos observar que tiene una estructura de datos poco optima para nuestro análisis, por lo que es necesario primero promover los encabezados de forma correcta para después hacer las correcciones necesarias en la estructura.
