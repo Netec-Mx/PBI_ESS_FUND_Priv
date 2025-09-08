@@ -2,11 +2,10 @@
 
 ## Planteamiento del ejercicio
 
-> En este segundo ejercicio se retoma el archivo de Power BI que se ha creado anteriormente, con base a este conjunto de datos y las observaciones que se han hecho sobre el mismo, se requiere hacer una serie de transformaciones para dejar las cosas listas para poder hacer el reporte de análisis de ventas.
+En este segundo ejercicio, se retoma el archivo de Power BI que se ha creado anteriormente. A partir de este conjunto de datos y las observaciones realizadas, se requiere aplicar una serie de transformaciones con el fin de preparar la información para la elaboración del reporte de análisis de ventas.
 
 ## Objetivo
-
-> Repasar distintas transformaciones de datos y aplicar este conocimiento a distintas instancias de datos.
+Repasar distintas transformaciones de datos y aplicar este conocimiento a distintas instancias de datos.
 
 ## Duración aproximada
 
@@ -18,40 +17,37 @@ Dependiendo de la experiencia previa que tengas en Power BI, la duración de est
 
 ## Transformar los datos
 
-Recordemos que del ejercicio pasado, las consultas que se han seleccionado presentan una serie de inconvenientes que es necesario corregirlos para poder trabajar la información, adicional a esto, no es necesaria toda la información que se acaba de seleccionar dentro de Power BI, por lo que para optimizar el procesar la información será necesario eliminar algunos datos que no nos interesa para este análisis. 
+Recordemos que del ejercicio pasado, las consultas que se han seleccionado presentan una serie de inconvenientes que se deben corregir para trabajar los datos. Adicional a esto, no es necesaria toda la información que se acaba de seleccionar dentro de Power BI, por lo que para optimizar el proceso se tendrán que eliminar algunos datos irrelevantes para este análisis. 
 
-Entre algunas de las transformaciones que podemos observar que son comunes entre las distintas consultas se encuentran:  
-Borrar filas vacías.  
-Promover los encabezados correctos para las tablas. 
-Cambiar el nombre a las consultas.
-Seleccionar las columnas a eliminar y/o a mantener.
-Entre otra serie de transformaciones.
+Entre algunas de las transformaciones comunes que puedes observar de las distintas consultas se encuentran:  
+- Borrar filas vacías.  
+- Promover los encabezados correctos para las tablas. 
+- Cambiar el nombre a las consultas.
+- Seleccionar las columnas a eliminar o mantener.
 
-1. Renombrar las consultas
-
-> En este paso cambiaremos el nombre de las consultas, algunas de ellas manejan la terminología de Dim o Fact, si bien esta terminología no es muy compleja de entender para algunas personas que no son propiamente analistas de datos puede que les resulte poco claro que significa la misma, por lo que se ha decidido homologar la terminología de la siguiente de manera:
+### Tarea 1. Renombrar las consultas
+En este paso, cambiarás el nombre de las consultas. Algunas de ellas manejan la terminología de Dim o Fact. Si bien, esta terminología no es muy compleja de entender, para algunas personas que no son propiamente analistas de datos, les puede resultar poco claro su significado, por lo que se ha decidido homologar la terminología de la siguiente de manera.
 
 - ColorFormats (no es necesario cambiar nada)
 - DimEmployee pasará a llamarse **Salesperson**
 - DimEmployeeSalesTerritory cambiará a **SalespersonRegion**
-- DimProduct lo renombraremos como **Product**
-- DimReseller será renombrado a **Reseller**
-- DimSalesTerritory que lo sustituiremos por **Region**
-- FactResellerSales ahora lo nombraremos como **Sales**
+- DimProduct se renombrará como **Product**
+- DimReseller se renombrará a **Reseller**
+- DimSalesTerritory lo sustituiremos por **Region**
+- FactResellerSales ahora lo nombrarás **Sales**
 - ResellerSalesTargets ahora sencillamente será **Targets**
 
     ![Resultado renombrar las consultas.](./imgs/Lab-21.png)
 
 
-2. Transformar las consultas
-
-* Consulta ColorFormats: 
+### Tarea 2. Transformar las consultas
+* Consulta ColorFormats 
   
     ![Consulta ColorFormats inicio.](./imgs/Lab-22.png)
 
-* Recordando las observaciones que lograste detectar del ejercicio pasado haremos ahora las transformaciones necesarias para dejar los datos listos, en ese sentido y para homologar los pasos para transformar los datos dejaremos una lista de acciones por realizar.
-    * Hay 2 filas vacías por lo que es necesario eliminarlas.
-    * Hay dos filas que parecen ser potenciales nombres de encabezados de columna, pero en ese sentido los encabezados que deseamos para la columnas son: **Color**, **Background Color Format**, **Font Color Format**. Por lo que la otra fila se puede eliminar.  
+Recordando las observaciones que lograste detectar del ejercicio pasado, ahora realizarás las transformaciones necesarias para dejar los datos listos. En ese sentido y con el fin de homologar los pasos para transformar los datos, se enlistan las acciones a realizar.
+    - Hay 2 filas vacías por lo que es necesario eliminarlas.
+    - Hay dos filas que parecen ser potenciales nombres de encabezados de columna, pero en ese sentido los encabezados que deseamos para la columnas son: **Color**, **Background Color Format**, **Font Color Format**. Por lo que la otra fila se puede eliminar.  
     ![Consulta ColorFormats resultado.](./imgs/Lab-23.png)
 
 
