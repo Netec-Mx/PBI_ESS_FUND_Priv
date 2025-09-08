@@ -1,6 +1,6 @@
-# Laboratorio #2: Transformar el conjunto de datos de AdventureWorks 
+# Práctica 2. Transformar el conjunto de datos de AdventureWorks 
 
-## Planteamiento del ejercicio.
+## Planteamiento del ejercicio
 
 > En este segundo ejercicio se retoma el archivo de Power BI que se ha creado anteriormente, con base a este conjunto de datos y las observaciones que se han hecho sobre el mismo, se requiere hacer una serie de transformaciones para dejar las cosas listas para poder hacer el reporte de análisis de ventas.
 
@@ -8,11 +8,11 @@
 
 > Repasar distintas transformaciones de datos y aplicar este conocimiento a distintas instancias de datos.
 
-## Tiempo estimado
+## Duración aproximada
 
-> Dependiendo la experiencia previa que tenga Power BI, puede que algunas de estas actividades las pueda realizar en mas o menos tiempo, pero el tiempo aproximado para analizar y realizar el laboratorio es de aproximadamente 60 minutos.
+Dependiendo de la experiencia previa que tengas en Power BI, la duración de estas actividades puede variar, pero el tiempo aproximado para analizar y realizar el laboratorio es de aproximadamente 60 minutos.
 
-## Actividades a realizar
+## Objetivo visual
 
 ![Actividades a realizar.](./imgs/Diagrama%20Ejercicio%202.png)
 
@@ -20,14 +20,14 @@
 
 Recordemos que del ejercicio pasado, las consultas que se han seleccionado presentan una serie de inconvenientes que es necesario corregirlos para poder trabajar la información, adicional a esto, no es necesaria toda la información que se acaba de seleccionar dentro de Power BI, por lo que para optimizar el procesar la información será necesario eliminar algunos datos que no nos interesa para este análisis. 
 
-> Entre algunas de las transformaciones que podemos observar que son comunes entre las distintas consultas se encuentran:  
+Entre algunas de las transformaciones que podemos observar que son comunes entre las distintas consultas se encuentran:  
 Borrar filas vacías.  
 Promover los encabezados correctos para las tablas. 
 Cambiar el nombre a las consultas.
 Seleccionar las columnas a eliminar y/o a mantener.
 Entre otra serie de transformaciones.
 
-1. Renombrar las consultas.
+1. Renombrar las consultas
 
 > En este paso cambiaremos el nombre de las consultas, algunas de ellas manejan la terminología de Dim o Fact, si bien esta terminología no es muy compleja de entender para algunas personas que no son propiamente analistas de datos puede que les resulte poco claro que significa la misma, por lo que se ha decidido homologar la terminología de la siguiente de manera:
 
@@ -43,7 +43,7 @@ Entre otra serie de transformaciones.
     ![Resultado renombrar las consultas.](./imgs/Lab-21.png)
 
 
-2. Transformar las consultas.
+2. Transformar las consultas
 
 * Consulta ColorFormats: 
   
