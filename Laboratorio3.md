@@ -98,9 +98,9 @@ Agrega un segmentador basándote en los datos `Date | Year`. Ubícalo en la posi
 
 ## Tarea 4. Modificaciones y publicación
 
-**Paso 1.** Regresa a la página Overview y cambia el valor del segmentador de los años a otro valor, por ejemplo el año fiscal 2018. Posteriormente, cambia a la página `My performance`. ¿Coinciden los valores?
+**Paso 1.** Regresa a la página Overview y cambia el valor del segmentador de los años a otro valor; por ejemplo, el año fiscal 2018. Posteriormente, cambia a la página `My performance`. ¿Coinciden los valores?
 
-**Paso 2.** Regresa a la página `Overview`, selecciona el segmentador y la opción de sincronización de segmentadores para sincronizar los datos entre estas dos páginas. Haz algo parecido pero con el otro segmentador para sincronizar los datos para la página `Profit`.
+**Paso 2.** Regresa a la página `Overview`, selecciona el segmentador y la opción de sincronización de segmentadores para sincronizar los datos entre estas dos páginas. Haz algo parecido, pero con el otro segmentador para sincronizar los datos para la página `Profit`.
 
 
 **Paso 3.** Abre el navegador dentro de la Máquina virtual y dirígete a https://app.powerbi.com. Inicia sesión con las credenciales del inquilino de Microsoft 365 proporcionadas para desarrollar el laboratorio.
@@ -113,4 +113,4 @@ Agrega un segmentador basándote en los datos `Date | Year`. Ubícalo en la posi
 
 ## Resultado esperado
 
-Al publicar el informe, el modelo de datos y el informe fueron cargados al servicio de Power BI. Al abrir el informe verás practicamente lo mismo que desarrollaste en Power Bi Desktop, ahora en el servicio de Power BI.
+Al publicar el informe, el modelo de datos y el informe fueron cargados al servicio de Power BI. Al abrir el informe verás prácticamente lo mismo que desarrollaste en Power Bi Desktop, ahora en el servicio de Power BI.
