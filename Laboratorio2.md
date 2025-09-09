@@ -48,7 +48,7 @@ En este paso, cambiarás el nombre de las consultas. Algunas de ellas utilizan p
 
 Recordando las observaciones que lograste detectar del ejercicio pasado, ahora realizarás las transformaciones necesarias para dejar los datos listos. En ese sentido y con el fin de homologar los pasos para transformar los datos, se enlistan las acciones a realizar.
 - Hay dos filas vacías que se deben eliminar.
-- Hay dos filas que parecen ser potenciales nombres de encabezados de columna; en ese sentido, los encabezados que se desean para la columnas son: `Color`, `Background Color Format`, `Font Color Format`, por lo que la otra fila se puede eliminar.
+- Hay dos filas que parecen ser potenciales nombres de encabezados de columna; en ese sentido, los encabezados que se desean para las columnas son: `Color`, `Background Color Format`, `Font Color Format`, por lo que la otra fila se puede eliminar.
   
     ![Consulta ColorFormats resultado.](./imgs/Lab-23.png)
 
