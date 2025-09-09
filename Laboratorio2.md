@@ -1,6 +1,6 @@
 # Práctica 2. Transformar el conjunto de datos de AdventureWorks 
 
-## Planteamiento del ejercicio
+
 
 En este segundo ejercicio, se retoma el archivo de Power BI que se ha creado anteriormente. A partir de este conjunto de datos y las observaciones realizadas, se requiere aplicar una serie de transformaciones con el fin de preparar la información para la elaboración del reporte de análisis de ventas.
 
