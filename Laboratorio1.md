@@ -33,7 +33,7 @@ Recuerda cómo obtener la información dentro de Power BI y cuál es el tipo de 
 ![Referencia del menu de inicio.](./imgs/Lab-11.png)
 
 Al momento de obtener la información, ¿qué notas de raro con el conjunto de datos?  
-Power BI analiza la información e identifica el contenido que podría ser necesario exportar. En este caso, por ejemplo, hojas de cálculo, tablas, etcétera.
+Power BI analiza la información e identifica el contenido que podría ser necesario exportar. En este caso, hojas de cálculo, tablas, entre otros.
 
 ![Referencia del menu para insertar los datos.](./imgs/Lab-12.png)
 
