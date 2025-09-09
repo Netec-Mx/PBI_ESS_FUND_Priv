@@ -95,7 +95,7 @@ __Consulta Product__
 ![Consulta Product inicio.](./imgs/Lab-28.png)
 
 Esta es una consulta con más contenido y carga de columnas, por lo que necesitas acotar qué columnas mantener, así que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
-- Hay dos filas con valores vacíos que son nnecesarias, por lo que hay que eliminarlas.
+- Hay dos filas con valores vacíos que son innecesarias, por lo que hay que eliminarlas.
 - La fila que potencialmente tiene los valores que queremos usar como encabezados de columna, notamos que tiene nombres con información repetitiva (DimProduct[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vamos a promoverlos como encabezado y, posteriormente, seleccionaremos solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
     * DimProduct[ProductKey]
     * DimProduct[EnglishProductName]
@@ -131,7 +131,7 @@ __Consulta Region__
 
 ![Consulta Region inicio.](./imgs/Lab-212.png)
 * Solamente debes quitar las filas en blanco y promover los encabezados, cambiando el nombre para quitar el texto que no sirve.
-* Adicionalmente, considera que la columna _SalesTerritoryAlternateKey_ al no ser utilizada y ser redundante con la columna _SalesTerritoryKey_ pues puede removerse para dejar solo 1.
+* Adicionalmente, considera que la columna _SalesTerritoryAlternateKey_ al no utilizarse y ser redundante con la columna _SalesTerritoryKey_ puede removerse para dejar solo 1.
 ![Consulta Region resultado.](./imgs/Lab-213.png)
 
 
@@ -141,9 +141,9 @@ __Consulta Region__
 __Consulta Sales__
 
 ![Consulta Sales inicio.](./imgs/Lab-214.png)
-Esta es la consulta con más contenido de todas las que has visto hasta el momento, aunque no necesariamente la más cargada de columnas, pero independientemente de eso, necesitamos acotar cuáles columnas mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
-- Hay dos filas con valores vacíos que no son necesarias, por lo que hay que eliminarlas.
-- La fila que potencialmente tiene los valores que queremos usar como encabezados de columna, notamos que tiene nombres con información repetitiva (FactResellerSales[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vamos a promoverlos como encabezado y, posteriormente, seleccionaremos solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
+Esta es la consulta con más contenido de todas las que has visto hasta el momento, aunque no necesariamente la más cargada de columnas. Independientemente de eso, necesitas acotar cuáles columnas mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
+- Hay dos filas innecesarias con valores vacíos, por lo que hay que eliminarlas.
+- La fila que contiene,  potencialmente, los valores que queremos usar como encabezados de columna, tiene nombres con información repetitiva (FactResellerSales[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, vas a promoverlos como encabezado y, posteriormente, seleccionaremos solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
     * FactResellerSales[SalesOrderNumber]
     * FactResellerSales[OrderDate]
     * FactResellerSales[ProductKey]
@@ -154,7 +154,7 @@ Esta es la consulta con más contenido de todas las que has visto hasta el momen
     * FactResellerSales[UnitPrice]
     * FactResellerSales[TotalProductCost]
     * FactResellerSales[SalesAmount]
-Nos piden marcar las 3 columnas que indican el precio unitario, el costo del producto y la cantidad de ventas como valores del tipo decimal fijo.
+Nos piden marcar las tres columnas que indican el precio unitario, el costo del producto y la cantidad de ventas como valores del tipo decimal fijo.
 
 ![Consulta Sales resultado.](./imgs/Lab-215.png)
 
