@@ -24,7 +24,7 @@ Se requiere elaborar un informe de tres páginas usando Power BI.
 
 ![Borrador de la pagina overview.](./imgs/Lab-32.png)
 
-**Paso 2.** Ahora que tienes una idea de la distribución de los elementos, comenzarás a poblar dichos elementos. El primer elemento que trabajarás es el logo de la empresa, el cual está dentro de la carpeta `Documentos` y lo encontrarás como `AdventureWorks Logo`. Inserta esta imagen tomando de referencia la siguiente.
+**Paso 2.** Ahora que tienes una idea de la distribución de los elementos, comenzarás a poblar dichos elementos. El primer elemento en el que trabajarás es el logo de la empresa, el cual está dentro de la carpeta `Documentos` y lo encontrarás como `AdventureWorks Logo`. Inserta esta imagen tomando de referencia la siguiente.
 
 ![Borrador de la pagina overview.](./imgs/Lab-33.png)
 
