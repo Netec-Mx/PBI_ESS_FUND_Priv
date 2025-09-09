@@ -32,11 +32,11 @@ Se requiere elaborar un informe de tres páginas usando Power BI.
 
 ![Borrador de la pagina overview.](./imgs/Lab-34.png)
 
-**Paso 4.** El siguiente elemento a desarrollar es otro segmentador usando los datos `Region | Region`, debe tener un estilo de lista. Ubícalo en el espacio designado.
+**Paso 4.** El siguiente elemento a desarrollar es otro segmentador usando los datos `Region | Region`; debe tener un estilo de lista. Ubícalo en el espacio designado.
 
 ![Borrador de la pagina overview.](./imgs/Lab-35.png)
 
-**Paso 5.** Ahora, genera el objeto visual `Columnas apiladas y líneas` usando los datos `Date | Month`, `Sales | Sales` y `Sales | Profit margin`. Modifica el aspecto del objeto visual para que muestre información incluso para los meses que no tienen valores. Colócalo en la ubicación marcada.
+**Paso 5.** Ahora, genera el objeto visual `Columnas apiladas y líneas` usando los datos `Date | Month`, `Sales | Sales` y `Sales | Profit margin`. Modifica el aspecto del objeto visual para que muestre información, incluso para los meses que no tienen valores. Colócalo en la ubicación marcada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-36.png)
 
