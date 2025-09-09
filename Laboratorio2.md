@@ -132,6 +132,7 @@ __Consulta Region__
 ![Consulta Region inicio.](./imgs/Lab-212.png)
 * Solamente debes quitar las filas en blanco y promover los encabezados, cambiando el nombre para quitar el texto que no sirve.
 * Adicionalmente, considera que la columna _SalesTerritoryAlternateKey_ al no utilizarse y ser redundante con la columna _SalesTerritoryKey_ puede removerse para dejar solo 1.
+
 ![Consulta Region resultado.](./imgs/Lab-213.png)
 
 
