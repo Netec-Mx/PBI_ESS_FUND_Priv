@@ -17,7 +17,7 @@ Dependiendo de la experiencia previa que tengas en Power BI, la duración de est
 
 ## Transformar los datos
 
-Recordemos que del ejercicio pasado, las consultas que se han seleccionado presentan una serie de inconvenientes que se deben corregir para trabajar los datos. Adicional a esto, no es necesaria toda la información que se acaba de seleccionar dentro de Power BI, por lo que para optimizar el proceso se tendrán que eliminar algunos datos irrelevantes para este análisis. 
+Recuerda que las consultas que se han seleccionado del ejercicio pasado presentan una serie de inconvenientes que se deben corregir para trabajar los datos. Adicionalmente a esto, no es necesaria toda la información que se acaba de seleccionar dentro de Power BI, por lo que para optimizar el proceso se tendrán que eliminar algunos datos irrelevantes para este análisis. 
 
 Entre algunas de las transformaciones comunes que puedes observar de las distintas consultas se encuentran:  
 - Borrar filas vacías.  
@@ -26,7 +26,7 @@ Entre algunas de las transformaciones comunes que puedes observar de las distint
 - Seleccionar las columnas a eliminar o mantener.
 
 ### Tarea 1. Renombrar las consultas
-En este paso, cambiarás el nombre de las consultas. Algunas de ellas manejan la terminología de Dim o Fact. Si bien, esta terminología no es muy compleja de entender, para algunas personas que no son propiamente analistas de datos, les puede resultar poco claro su significado, por lo que se ha decidido homologar la terminología de la siguiente de manera.
+En este paso, cambiarás el nombre de las consultas. Algunas de ellas utilizan prefijos como Dim o Fact, los cuales, aunque no son difíciles de comprender, pueden resultar poco claros para personas que no están familiarizadas con el análisis de datos, por lo que se ha decidido homologar de la siguiente de manera.
 
 - ColorFormats (no es necesario cambiar nada)
 - DimEmployee pasará a llamarse **Salesperson**
@@ -59,7 +59,7 @@ __Consulta Salesperson__
 
 ![Consulta Salesperson inicio.](./imgs/Lab-24.png)
 
-Esta es una consulta con más contenido y más cargada de columnas, por lo que necesitamos acotar cuáles son las columnas que necesitamos mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
+Esta es una consulta con más contenido y más cargada de columnas, así que necesitamos acotar cuáles son las columnas que necesitamos conservar, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
 - Hay dos filas con valores vacíos que son innecesarias, por lo que hay que cambiarlas.
 - La fila que contiene, potencialmente, los valores que queremos usar como encabezados de columna tiene nombres con información repetitiva (DimEmployee[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vas a promoverlos como encabezado y, posteriormente, seleccionarás solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
     * DimEmployee[EmployeeKey]
