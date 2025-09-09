@@ -9,7 +9,7 @@ Repasar distintas transformaciones de datos y aplicar este conocimiento a distin
 
 ## Duración aproximada
 
-Dependiendo de la experiencia previa que tengas en Power BI, la duración de estas actividades puede variar, pero el tiempo aproximado para analizar y realizar el laboratorio es de aproximadamente 60 minutos.
+60 minutos.
 
 ## Objetivo visual
 
