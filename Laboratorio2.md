@@ -84,6 +84,7 @@ __Consulta SalespersonRegion__
 ![Consulta SalespersonRegion inicio.](./imgs/Lab-26.png)
 
 Solamente tienes que quitar las filas en blanco y promover los encabezados, cambiando el nombre para quitar el texto que no sirve.  
+
 ![Consulta SalespersonRegion resultado.](./imgs/Lab-27.png)
 
 
@@ -104,6 +105,7 @@ Esta es una consulta con más contenido y carga de columnas, por lo que necesita
     * DimProduct[Color]
 - Filtra el contenido de la columna FinishedCoodsFlag para mostrar solamente los productos terminados.
 - Renombra la columna EnglishProductName a Product
+
 ![Consulta Product resultado.](./imgs/Lab-29.png)
 
 
@@ -130,6 +132,7 @@ Recuerda que en esta tabla, los valores que se presentaban en la columna _Bussin
 __Consulta Region__
 
 ![Consulta Region inicio.](./imgs/Lab-212.png)
+
 * Solamente debes quitar las filas en blanco y promover los encabezados, cambiando el nombre para quitar el texto que no sirve.
 * Adicionalmente, considera que la columna _SalesTerritoryAlternateKey_ al no utilizarse y ser redundante con la columna _SalesTerritoryKey_ puede removerse para dejar solo 1.
 
@@ -142,6 +145,7 @@ __Consulta Region__
 __Consulta Sales__
 
 ![Consulta Sales inicio.](./imgs/Lab-214.png)
+
 Esta es la consulta con más contenido de todas las que has visto hasta el momento, aunque no necesariamente la más cargada de columnas. Independientemente de eso, necesitas acotar cuáles columnas mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
 - Hay dos filas innecesarias con valores vacíos, por lo que hay que eliminarlas.
 - La fila que contiene,  potencialmente, los valores que queremos usar como encabezados de columna, tiene nombres con información repetitiva (FactResellerSales[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, vas a promoverlos como encabezado y, posteriormente, seleccionaremos solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
@@ -166,6 +170,7 @@ Nos piden marcar las tres columnas que indican el precio unitario, el costo del 
 __Consulta Targets__
 
 ![Consulta Targets inicio.](./imgs/Lab-216.png)
+
 Puedes observar que esta consulta tiene una estructura de datos poco óptima para nuestro análisis, por lo que primero es necesario promover los encabezados de forma correcta para después hacer las correcciones necesarias en la estructura.
 - Hay dos filas innecesarias con valores vacíos, por lo que hay que eliminarlas.
 - Se busca anular la dinamización de las columnas de M01 a M12 manteniendo las otras como están.
