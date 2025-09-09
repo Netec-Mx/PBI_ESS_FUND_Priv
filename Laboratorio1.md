@@ -18,7 +18,7 @@ Al finalizar la práctica, serás capaz de:
 
 Antes de crear el reporte, es necesario tener acceso a los datos para poder manipularlos.
 
-Para ello, recuerda que la información puede provenir de distintos lugares: archivos locales, archivos remotos (en ubicaciones de la empresa o, bien, en internet), servicios especializados (Servicios de Microsoft, AWS, Google, entre un largo etcétera).
+Para ello, recuerda que la información puede provenir de distintos lugares: archivos locales, archivos remotos (en ubicaciones de la empresa o, bien, en internet), servicios especializados (servicios de Microsoft, AWS, Google, entre un largo etcétera).
 
 En este primer laboratorio, usarás un archivo de Excel para obtener la información. El cual se encuentra en la carpeta `Documentos` de la máquina virtual. Lo identificarás como `AdventureWorks Sales.xlsx`.
 
