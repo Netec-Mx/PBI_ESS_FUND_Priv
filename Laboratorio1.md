@@ -8,7 +8,7 @@ Al finalizar la práctica, serás capaz de:
 
 ## Duración aproximada
 
-Dependiendo de la experiencia previa que tengas en Power BI, la duración de estas actividades puede variar, pero el tiempo aproximado para analizar y realizar el laboratorio es de 20 minutos.
+20 minutos.
 
 ## Objetivo visual
 
