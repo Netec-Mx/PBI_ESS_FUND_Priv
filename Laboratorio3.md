@@ -55,11 +55,11 @@ Se requiere elaborar un informe de tres páginas usando Power BI.
 
 ![Borrador de la pagina overview.](./imgs/Lab-38.png)
 
-**Paso 2.** Comenzando con la primer visualización, agregarás un segmentador usando los datos `Region | Region`. Considera que es posible ver los datos de más de una región al mismo tiempo. Ubícalo en la posición marcada.
+**Paso 2.** Comenzando con la primera visualización, agregarás un segmentador usando los datos `Region | Region`. Considera que es posible ver los datos de más de una región al mismo tiempo. Ubícalo en la posición marcada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-39.png)
 
-**Paso 3.** Para la segunda visualización, mostrarás una matriz usando los datos `Date | Fiscal` en la sección de filas, los siguientes datos (provienen de la tabla `Sales`) irán en la sección de columnas: `Orders`, `Sales`, `Cost`, `Profit`, `Profit Margin`.
+**Paso 3.** Para la segunda visualización, mostrarás una matriz usando los datos `Date | Fiscal` en la sección de filas. Los siguientes datos (provienen de la tabla `Sales`) irán en la sección de columnas: `Orders`, `Sales`, `Cost`, `Profit`, `Profit Margin`.
 
 ![Borrador de la pagina overview.](./imgs/Lab-38.png)
 
