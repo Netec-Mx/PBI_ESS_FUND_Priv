@@ -50,7 +50,7 @@ Si bien, tanto las tablas como las hojas tendrán básicamente el mismo contenid
 
 ### Tarea 2. Examinar los datos de cada consulta usando Power Query Editor
 
-Al obtener este conjunto de datos, es necesario determinar su calidad, poder determinar qué elementos faltan y cuáles sobran o necesitan modificarse. Toma en consideración que estas actividades se harán en el siguiente laboratorio.
+Al obtener este conjunto de datos, es necesario determinar su calidad, determinar qué elementos faltan y cuáles sobran o necesitan modificarse. Toma en consideración que estas actividades se harán en la siguiente práctica.
 
 Dando una pequeña explicación de qué hace cada tabla y su contenido, se puede resumir lo siguiente. 
 - La consulta **ColorFormats** tiene información que se utilizará para aplicar un formato condicional.  
