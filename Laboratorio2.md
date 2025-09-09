@@ -177,7 +177,7 @@ __Consulta Targets__
 Puedes observar que esta consulta tiene una estructura de datos poco óptima para nuestro análisis, por lo que primero es necesario promover los encabezados de forma correcta para después hacer las correcciones necesarias en la estructura.
 - Hay dos filas innecesarias con valores vacíos, por lo que hay que eliminarlas.
 - Se busca anular la dinamización de las columnas de `M01` a `M12` manteniendo las otras como están.
-- A las nuevas columnas generadas nombrálas `MonthNumber` y `Target` respectivamente.
+- A las nuevas columnas generadas nómbralas `MonthNumber` y `Target` respectivamente.
 - Cambia los nombres de las columnas `ResellerSalesTarget[Year]` y `ResellerSalesTarget[EmployeeID]` a `Year` y `ExployeeID` respectivamente.
 - De la columna `MonthNumber`, extrae el texto para que únicamente quede `MXX`.
 - Posteriormente, en la misma columna, reemplaza el valor `M` para que solo queden los números `XX`. Aprovecha y cambia el tipo de dato a un número entero.
