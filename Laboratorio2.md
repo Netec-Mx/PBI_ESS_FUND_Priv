@@ -33,7 +33,7 @@ En este paso, cambiarás el nombre de las consultas. Algunas de ellas utilizan p
 - DimEmployeeSalesTerritory cambiará a **SalespersonRegion**
 - DimProduct se renombrará como **Product**
 - DimReseller se renombrará a **Reseller**
-- DimSalesTerritory lo sustituiremos por **Region**
+- DimSalesTerritory lo sustituirás por **Region**
 - FactResellerSales ahora lo nombrarás **Sales**
 - ResellerSalesTargets ahora sencillamente será **Targets**
 
@@ -47,7 +47,7 @@ En este paso, cambiarás el nombre de las consultas. Algunas de ellas utilizan p
 
 Recordando las observaciones que lograste detectar del ejercicio pasado, ahora realizarás las transformaciones necesarias para dejar los datos listos. En ese sentido y con el fin de homologar los pasos para transformar los datos, se enlistan las acciones a realizar.
 - Hay dos filas vacías que se deben eliminar.
-- Hay dos filas que parecen ser potenciales nombres de encabezados de columna; en ese sentido, los encabezados que deseamos para la columnas son: **Color**, **Background Color Format**, **Font Color Format**, por lo que la otra fila se puede eliminar.
+- Hay dos filas que parecen ser potenciales nombres de encabezados de columna; en ese sentido, los encabezados que se desean para la columnas son: **Color**, **Background Color Format**, **Font Color Format**, por lo que la otra fila se puede eliminar.
   
     ![Consulta ColorFormats resultado.](./imgs/Lab-23.png)
 
@@ -59,9 +59,9 @@ __Consulta Salesperson__
 
 ![Consulta Salesperson inicio.](./imgs/Lab-24.png)
 
-Esta es una consulta con más contenido y más cargada de columnas, así que necesitamos acotar cuáles son las columnas que necesitamos conservar, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
+Esta es una consulta con más contenido y más cargada de columnas, así que necesitas acotar cuáles columnas conservar, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
 - Hay dos filas con valores vacíos que son innecesarias, por lo que hay que cambiarlas.
-- La fila que contiene, potencialmente, los valores que queremos usar como encabezados de columna tiene nombres con información repetitiva (DimEmployee[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vas a promoverlos como encabezado y, posteriormente, seleccionarás solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
+- La fila que contiene, potencialmente, los valores que se requieren usar como encabezados de columna tiene nombres con información repetitiva (DimEmployee[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vas a promoverlos como encabezado y, posteriormente, seleccionarás solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solo las siguientes columnas y cámbiales el nombre para conservar únicamente el texto entre corchetes:
     * DimEmployee[EmployeeKey]
     * DimEmployee[EmployeeNationalIDAlternateKey]
     * DimEmployee[FirstName]
@@ -69,8 +69,8 @@ Esta es una consulta con más contenido y más cargada de columnas, así que nec
     * DimEmployee[Title]
     * DimEmployee[EmailAddress]
 
-Se pide combinar las columnas FirstName y LastName en una sola, combínala y nómbrala Sales Person.
-Para simplificar la lectura, se pide renombrarla columna EmployeeNationalIDAlternateKey por EmployeeID.
+Combina las columnas FirstName y LastName en una sola y nómbrala Sales Person.
+Para simplificar la lectura, renombra la columna EmployeeNationalIDAlternateKey a EmployeeID.
 Se pide, por último, cambiar la columna EmailAddress por UPN.
 
 ![Consulta Salesperson resultado.](./imgs/Lab-25.png)     
@@ -95,9 +95,9 @@ __Consulta Product__
 
 ![Consulta Product inicio.](./imgs/Lab-28.png)
 
-Esta es una consulta con más contenido y carga de columnas, por lo que necesitas acotar qué columnas mantener, así que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
+Esta es una consulta con más contenido y carga de columnas, por lo que necesitas acotar qué columnas conservar, así que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
 - Hay dos filas con valores vacíos que son innecesarias, por lo que hay que eliminarlas.
-- La fila que potencialmente tiene los valores que queremos usar como encabezados de columna, notamos que tiene nombres con información repetitiva (DimProduct[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vamos a promoverlos como encabezado y, posteriormente, seleccionaremos solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
+- La fila que potencialmente tiene los valores que se requieren usar como encabezados de columna tiene nombres con información repetitiva (DimProduct[]), por lo que se necesitan reemplazar esos datos. Pero antes de cambiarlos, primero vas a promoverlos como encabezado y, posteriormente, seleccionarás solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solo las siguientes columnas y cámbiales el nombre para conservar únicamente el texto entre corchetes:
     * DimProduct[ProductKey]
     * DimProduct[EnglishProductName]
     * DimProduct[StandardCost]
@@ -115,9 +115,9 @@ Esta es una consulta con más contenido y carga de columnas, por lo que necesita
 __Consulta Reseller__
 
 ![Consulta Reseller inicio.](./imgs/Lab-210.png)
-Esta es una consulta con mas contenido y mas cargada de columnas, por lo que necesitamos acotar cuales son las columnas que necesitamos mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar que columnas mantener.
-- Hay dos filas con valores vacíos que no son necesarias, por lo que hay que eliminarlas.
-- La fila que potencialmente tiene los valores que queremos usar como encabezados de columna, notamos que tiene nombres con información repetitiva (DimReseller[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero vamos a promoverlos como encabezado y, posteriormente, seleccionaremos solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
+Esta es una consulta con más contenido y más carga de columnas, así que necesitas acotar qué columnas conservar, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
+- Hay dos filas con valores vacíos que son innecesarias, por lo que hay que eliminarlas.
+- La fila que potencialmente tiene los valores que se requieren usar como encabezados de columna tiene nombres con información repetitiva (DimReseller[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, primero promuévelos como encabezado y, posteriormente, selecciona solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solo las siguientes columnas y cámbiales el nombre para conservar únicamente el texto entre corchetes:
     * DimReseller[ResellerKey]
     * DimReseller[BusinessType]
     * DimReseller[ResellerName]
@@ -134,7 +134,7 @@ __Consulta Region__
 ![Consulta Region inicio.](./imgs/Lab-212.png)
 
 * Solamente debes quitar las filas en blanco y promover los encabezados, cambiando el nombre para quitar el texto que no sirve.
-* Adicionalmente, considera que la columna _SalesTerritoryAlternateKey_ al no utilizarse y ser redundante con la columna _SalesTerritoryKey_ puede removerse para dejar solo 1.
+* Adicionalmente, considera que la columna _SalesTerritoryAlternateKey_ al no utilizarse y ser redundante con la columna _SalesTerritoryKey_ puede removerse para dejar solo uno.
 
 ![Consulta Region resultado.](./imgs/Lab-213.png)
 
@@ -146,9 +146,9 @@ __Consulta Sales__
 
 ![Consulta Sales inicio.](./imgs/Lab-214.png)
 
-Esta es la consulta con más contenido de todas las que has visto hasta el momento, aunque no necesariamente la más cargada de columnas. Independientemente de eso, necesitas acotar cuáles columnas mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
+Esta es la consulta con más contenido de todas las que has visto hasta el momento, aunque no necesariamente la más cargada de columnas. Independientemente de eso, necesitas acotar cuáles columnas mantener, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas conservar.
 - Hay dos filas innecesarias con valores vacíos, por lo que hay que eliminarlas.
-- La fila que contiene,  potencialmente, los valores que queremos usar como encabezados de columna, tiene nombres con información repetitiva (FactResellerSales[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, vas a promoverlos como encabezado y, posteriormente, seleccionaremos solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solamente las siguientes columnas y cámbiales el nombre para mantener solamente el texto entre corchetes:
+- La fila que contiene,  potencialmente, los valores que se requieren usar como encabezados de columna, tiene nombres con información repetitiva (FactResellerSales[]) por lo que es necesario reemplazar esos datos. Pero antes de cambiarlos, vas a promoverlos como encabezado y, posteriormente, seleccionarás solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solo las siguientes columnas y cámbiales el nombre para conservar únicamente el texto entre corchetes:
     * FactResellerSales[SalesOrderNumber]
     * FactResellerSales[OrderDate]
     * FactResellerSales[ProductKey]
@@ -159,7 +159,7 @@ Esta es la consulta con más contenido de todas las que has visto hasta el momen
     * FactResellerSales[UnitPrice]
     * FactResellerSales[TotalProductCost]
     * FactResellerSales[SalesAmount]
-Nos piden marcar las tres columnas que indican el precio unitario, el costo del producto y la cantidad de ventas como valores del tipo decimal fijo.
+Se pide marcar las tres columnas que indican el precio unitario, el costo del producto y la cantidad de ventas como valores del tipo decimal fijo.
 
 ![Consulta Sales resultado.](./imgs/Lab-215.png)
 
@@ -176,8 +176,8 @@ Puedes observar que esta consulta tiene una estructura de datos poco óptima par
 - Se busca anular la dinamización de las columnas de M01 a M12 manteniendo las otras como están.
 - A las nuevas columnas generadas nombrálas _MonthNumber_ y _Target_ respectivamente.
 - Cambia los nombres de las columnas ResellerSalesTarget[Year] y ResellerSalesTarget[EmployeeID] a _Year_ y _ExployeeID_ respectivamente.
-- De la columna MonthNumber, extrae el texto para que solamente quede MXX.
-- Posteriormente, en la misma columna, reemplaza el valor M para que solamente queden los números XX. Aprovecha y cambia el tipo de dato a un número entero.
+- De la columna MonthNumber, extrae el texto para que únicamente quede MXX.
+- Posteriormente, en la misma columna, reemplaza el valor M para que solo queden los números XX. Aprovecha y cambia el tipo de dato a un número entero.
 - Filtra la columna Target para remover los valores vacíos (-).
 - Añade una nueva columna a partir de ejemplos utilizando las columnas Year y MonthNumber
 - Esta nueva columna se llamará TargetMonth.
