@@ -1,7 +1,5 @@
 # Práctica 1. Importar el archivo de AdventureWorks Sales 
 
-## Planteamiento del ejercicio
-
 En este primer ejercicio, se presenta el conjunto de datos que se utilizará a lo largo del curso. Con base en estos datos, se planea elaborar un reporte que represente el estatus de las ventas dentro de la empresa ficticia *AdvertureWorks*.
 
 ## Objetivo
