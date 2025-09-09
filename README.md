@@ -10,7 +10,7 @@ Bienvenido a la **plataforma de laboratorios** del curso **Power BI: fundamentos
 
 Cada uno de estos laboratorios están diseñados para ofrecerte una experiencia práctica. Haz clic en los enlaces para comenzar.
 
-### - [Práctica 1. Práctica 1. Importar el archivo de AdventureWorks Sales](./Laboratorio1.md) 
+### [Práctica 1. Importar el archivo de AdventureWorks Sales](./Laboratorio1.md) 
    - **Descripción**: Importar el archivo y hacer un análisis preliminar de cómo se conforman los datos y la calidad de los mismos..
    - ⏱️ **Duración estimada**: 20 min.
 
