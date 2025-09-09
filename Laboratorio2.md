@@ -28,14 +28,14 @@ Entre algunas de las transformaciones comunes que puedes observar de las distint
 ### Tarea 1. Renombrar las consultas
 En este paso, cambiarás el nombre de las consultas. Algunas de ellas utilizan prefijos como Dim o Fact, los cuales, aunque no son difíciles de comprender, pueden resultar poco claros para personas que no están familiarizadas con el análisis de datos, por lo que se ha decidido homologar de la siguiente de manera.
 
-- ColorFormats (no es necesario cambiar nada)
-- DimEmployee pasará a llamarse **Salesperson**
-- DimEmployeeSalesTerritory cambiará a **SalespersonRegion**
-- DimProduct se renombrará como **Product**
-- DimReseller se renombrará a **Reseller**
-- DimSalesTerritory lo sustituirás por **Region**
-- FactResellerSales ahora lo nombrarás **Sales**
-- ResellerSalesTargets ahora sencillamente será **Targets**
+- `ColorFormats` (no es necesario cambiar nada)
+- `DimEmployee` pasará a llamarse **Salesperson**
+- `DimEmployeeSalesTerritory` cambiará a **SalespersonRegion**
+- `DimProduct` se renombrará como **Product**
+- `DimReseller` se renombrará a **Reseller**
+- `DimSalesTerritory` lo sustituirás por **Region**
+- `FactResellerSales` ahora lo nombrarás **Sales**
+- `ResellerSalesTargets` ahora sencillamente será **Targets**
 
     ![Resultado renombrar las consultas.](./imgs/Lab-21.png)
 
@@ -69,9 +69,9 @@ Esta es una consulta con más contenido y más cargada de columnas, así que nec
     * DimEmployee[Title]
     * DimEmployee[EmailAddress]
 
-Combina las columnas FirstName y LastName en una sola y nómbrala Sales Person.
-Para simplificar la lectura, renombra la columna EmployeeNationalIDAlternateKey a EmployeeID.
-Se pide, por último, cambiar la columna EmailAddress por UPN.
+Combina las columnas `FirstName` y `LastName` en una sola y nómbrala `Sales Person`.
+Para simplificar la lectura, renombra la columna `EmployeeNationalIDAlternateKey` a `EmployeeID`.
+Se pide, por último, cambiar la columna `EmailAddress` por `UPN`.
 
 ![Consulta Salesperson resultado.](./imgs/Lab-25.png)     
 
