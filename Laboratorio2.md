@@ -18,7 +18,7 @@ Al finalizar la práctica, serás capaz de:
 
 ## Transformar los datos
 
-Recuerda que las consultas que se han seleccionado del ejercicio pasado presentan una serie de inconvenientes que se deben corregir para trabajar los datos. Adicionalmente a esto, no es necesaria toda la información que se acaba de seleccionar dentro de Power BI, por lo que para optimizar el proceso se tendrán que eliminar algunos datos irrelevantes para este análisis. 
+Recuerda que las consultas que se han seleccionado del ejercicio pasado presentan una serie de inconvenientes que se deben corregir para trabajar los datos. Adicionalmente a esto, no es necesaria toda la información que se acaba de seleccionar dentro de Power BI, por lo que, para optimizar el proceso, se tendrán que eliminar algunos datos irrelevantes para este análisis. 
 
 Entre algunas de las transformaciones comunes que puedes observar de las distintas consultas se encuentran:  
 - Borrar filas vacías.  
@@ -32,11 +32,11 @@ En este paso, cambiarás el nombre de las consultas. Algunas de ellas utilizan p
 - `ColorFormats` (no es necesario cambiar nada)
 - `DimEmployee` pasará a llamarse `Salesperson`
 - `DimEmployeeSalesTerritory` cambiará a `SalespersonRegion`
-- `DimProduct` se renombrará como `Product`
+- `DimProduct` cambiará a `Product`
 - `DimReseller` se renombrará a `Reseller`
 - `DimSalesTerritory` lo sustituirás por `Region`
 - `FactResellerSales` ahora lo nombrarás `Sales`
-- `ResellerSalesTargets` ahora sencillamente será `Targets`
+- `ResellerSalesTargets` sencillamente será `Targets`
 
     ![Resultado renombrar las consultas.](./imgs/Lab-21.png)
 
@@ -123,7 +123,7 @@ Esta es una consulta con más contenido y más carga de columnas, así que neces
     * `DimReseller` `[BusinessType]`
     * `DimReseller` `[ResellerName]`
 
-Recuerda que en esta tabla, los valores que se presentaban en la columna `BussinessType` tenían inconsistencia en la terminología, por lo que debes homologar los valores para `Warehouse` y `Ware House` de una sola manera.
+Recuerda que, en esta tabla, los valores que se presentaban en la columna `BussinessType` tenían inconsistencia en la terminología, por lo que debes homologar los valores para `Warehouse` y `Ware House` de una sola manera.
     
 ![Consulta Reseller resultado.](./imgs/Lab-211.png)
 
@@ -161,7 +161,8 @@ Esta es la consulta con más contenido de todas las que has visto hasta el momen
     * `FactResellerSales` `[UnitPrice]`
     * `FactResellerSales` `[TotalProductCost]`
     * `FactResellerSales` `[SalesAmount]`
-Se pide marcar las tres columnas que indican el precio unitario, el costo del producto y la cantidad de ventas como valores del tipo decimal fijo.
+
+Debes marcar las tres columnas que indican el precio unitario, el costo del producto y la cantidad de ventas como valores del tipo decimal fijo.
 
 ![Consulta Sales resultado.](./imgs/Lab-215.png)
 
