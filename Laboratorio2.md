@@ -98,14 +98,14 @@ __Consulta Product__
 
 Esta es una consulta con más contenido y carga de columnas, por lo que necesitas acotar qué columnas conservar, así que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
 - Hay dos filas con valores vacíos que son innecesarias, por lo que hay que eliminarlas.
-- La fila que potencialmente tiene los valores que se requieren usar como encabezados de columna tiene nombres con información repetitiva `(DimProduct[])`, por lo que se necesitan reemplazar esos datos. Pero antes de cambiarlos, primero vas a promoverlos como encabezado y, posteriormente, seleccionarás solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solo las siguientes columnas y cámbiales el nombre para conservar únicamente el texto entre corchetes:
+- La fila que potencialmente tiene los valores que se requieren usar como encabezados de columna tiene nombres con información repetitiva `(DimProduct[])`, por lo que se necesita reemplazar esos datos. Pero antes de cambiarlos, primero vas a promoverlos como encabezado y, posteriormente, seleccionarás solo algunas columnas para reducir la cantidad de cambios a realizar. Mantén solo las siguientes columnas y cámbiales el nombre para conservar únicamente el texto entre corchetes:
     * `DimProduct` `[ProductKey]`
     * `DimProduct` `[EnglishProductName]`
     * `DimProduct` `[StandardCost]`
     * `DimProduct` `[FinishedGoodsFlag]`
     * `DimProduct` `[Color]`
 - Filtra el contenido de la columna `FinishedCoodsFlag` para mostrar solamente los productos terminados.
-- Renombra la columna `EnglishProductName` a `Product`
+- Renombra la columna `EnglishProductName` a `Product`.
 
 ![Consulta Product resultado.](./imgs/Lab-29.png)
 
