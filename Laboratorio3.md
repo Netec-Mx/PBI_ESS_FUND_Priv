@@ -9,7 +9,7 @@ Crear un informe en Power BI Desktop y subirlo al servicio de Power BI.
 
 ## Duración aproximada
 
-Dependiendo la experiencia previa que tenga Power BI, puede que algunas de estas actividades las pueda realizar en mas o menos tiempo, pero el tiempo aproximado para analizar y realizar el laboratorio es de aproximadamente 60 minutos.
+Dependiendo de la experiencia previa que tengas en Power BI, la duración de estas actividades puede variar, pero el tiempo aproximado para analizar y realizar el laboratorio es de aproximadamente 60 minutos.
 
 ## Actividades a realizar
 
@@ -18,7 +18,7 @@ Dependiendo la experiencia previa que tenga Power BI, puede que algunas de estas
 
 # Página Overview
 
-Se requiere elaborar un informe de 3 páginas usando Power BI. Primero, realiza la página overview cambiando el nombre predeterminado de la página 1 por Overview. El boceto de la distribución de los elementos lo puedes ver en la siguiente imagen.
+Se requiere elaborar un informe de tres páginas usando Power BI. Primero, realiza la página `Overview` cambiando el nombre predeterminado de la `Página 1` por `Overview`. El boceto de la distribución de los elementos lo puedes ver en la siguiente imagen.
 
 ![Borrador de la pagina overview.](./imgs/Lab-32.png)
 
@@ -34,22 +34,22 @@ El siguiente elemento a desarrollar es otro segmentador usando los datos `Region
 
 ![Borrador de la pagina overview.](./imgs/Lab-35.png)
 
-Generarás ahora el objeto visual `columnas apiladas y lineas` usando los datos `Date | Month`, `Sales | Sales` y `Sales | Profit margin`. Modifica el aspecto del objeto visual para que muestre información incluso para los meses que no tienen valores. Colócalo en la ubicación marcada.
+Generarás ahora el objeto visual `Columnas apiladas y líneas` usando los datos `Date | Month`, `Sales | Sales` y `Sales | Profit margin`. Modifica el aspecto del objeto visual para que muestre información incluso para los meses que no tienen valores. Colócalo en la ubicación marcada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-36.png)
 
-Generarás ahora el objeto visual `columnas apiladas` usando los datos `Region | Group`, `Sales | Sales` y `Product | Category`. Colócalo en la ubicación marcada.
+Generarás ahora el objeto visual `Columnas apiladas` usando los datos `Region | Group`, `Sales | Sales` y `Product | Category`. Colócalo en la ubicación marcada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-37.png)
 
-Generarás ahora el objeto visual `barras apiladas` usando los datos `Product | Category`, `Sales | Quantity`, modifica el aspecto para permitir las etiquetas de los datos y cambia el color de las barras a un tono parecido a la linea que se muestra en gráfico superior. Colócalo en la ubicación marcada.
+Generarás ahora el objeto visual `Barras apiladas` usando los datos `Product | Category` y `Sales | Quantity`. Modifica el aspecto para permitir las etiquetas de los datos y cambia el color de las barras a un tono parecido a la línea que se muestra en gráfico superior. Colócalo en la ubicación marcada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-32.png)
 
 
 # Página Profit
 
-Se pide elaborar una segunda página para el reporte, por lo que debes agregar una nueva página al reporte de Power BI y renombrala como Profit. El boceto de la página será similar a la siguiente imagen.
+Se pide elaborar una segunda página para el reporte, por lo que debes agregar una nueva página al reporte de Power BI y renombrarla como `Profit`. El boceto de la página será similar a la siguiente imagen.
 
 ![Borrador de la pagina overview.](./imgs/Lab-38.png)
 
@@ -71,7 +71,7 @@ Se requiere, por último, agregar a los filtros de Power BI los siguientes crite
 
 # Página My Profit
 
-Para elaborar la última página del reporte, debes agregar una nueva página al reporte de Power BI y renómbrala como `My Profit`. El boceto de la página será similar a la siguiente imagen.
+Para elaborar la última página del reporte, debes agregar una nueva página al reporte de Power BI y renombrarla como `My Profit`. El boceto de la página será similar a la siguiente imagen.
 
 ![Borrador de la pagina overview.](./imgs/Lab-310.png)
 
@@ -81,7 +81,7 @@ Agrega un segmentador basándote en los datos `Date | Year`. Ubícalo en la posi
 
 ![Borrador de la pagina overview.](./imgs/Lab-311.png)
 
-Añade un objeto visual del tipo `Tarjeta de varias filas` considerando los siguientes valores: `Sales | Sales`, `Targets | Target`, `Targets | Variance`, `Targets | Variance Margin`. Cambia el formato de este visual para que el color de fondo sea un tono gris claro y que el tamaño fuente de los valores sea de 28 puntos. Ubícalo en la posición marcada.
+Añade un objeto visual del tipo `Tarjeta de varias filas` considerando los siguientes valores: `Sales | Sales`, `Targets | Target`, `Targets | Variance`, `Targets | Variance Margin`. Cambia el formato de este visual para que el color de fondo sea un tono gris claro y que el tamaño de la fuente de los valores sea de 28 puntos. Ubícalo en la posición marcada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-312.png)
 
@@ -101,7 +101,7 @@ Regresa a la página Overview y cambia el valor del segmentador de los años a o
 Regresa a la página `Overview`, selecciona el segmentador y la opción de sincronización de segmentadores para sincronizar los datos entre estas dos páginas. Haz algo parecido pero con el otro segmentador para sincronizar los datos para la página `Profit`.
 
 
-Abra el navegador dentro de la Máquina virtual y dirígete a https://app.powerbi.com. Inicia sesión con las credenciales del inquilino de Microsoft 365 proporcionadas para desarrollar el laboratorio.
+Abre el navegador dentro de la Máquina virtual y dirígete a https://app.powerbi.com. Inicia sesión con las credenciales del inquilino de Microsoft 365 proporcionadas para desarrollar el laboratorio.
 
 Dentro de Power Bi Desktop, en la pestaña `Inicio` selecciona `Publicar` y guarda el reporte en `Mi espacio de trabajo`
 
