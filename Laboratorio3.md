@@ -1,6 +1,6 @@
 # Práctica 3. Elaborar el reporte y subir datos 
 
-## Planteamiento del ejercicio
+
 En este último ejercicio, elaborarás un reporte de ventas y lo subirás al servicio de Power BI. Este laboratorio utiliza el mismo conjunto de datos que los ejercicios anteriores, pero trabaja con un archivo de Power BI diferente. Debido a las limitaciones de tiempo, se han aplicado previamente algunas transformaciones y pasos al archivo que ahora se presenta en su versión final. A partir de este punto, continuarás el desarrollo del laboratorio utilizando el archivo `Laboratorio final`. Con el fin de facilitar algunas instrucciones dentro del laboratorio, se usará la sintaxis `Nombre_tabla | Nombre_columna` para definir algunos de los datos a utilizar.
 
 ## Objetivo
