@@ -26,23 +26,23 @@ Ahora que tienes una idea de la distribución de los elementos, comenzarás a po
 
 ![Borrador de la pagina overview.](./imgs/Lab-33.png)
 
-El siguiente elemento a desarrollar es un segmentador usando los datos `Date` | `Year`, debe tener un estilo de menú desplegable para optimizar el espacio. Ubícalo en el espacio designado. Prueba a seleccionar un año para filtrar la información.
+El siguiente elemento a desarrollar es un segmentador usando los datos `Date | Year`, debe tener un estilo de menú desplegable para optimizar el espacio. Ubícalo en el espacio designado. Prueba a seleccionar un año para filtrar la información.
 
 ![Borrador de la pagina overview.](./imgs/Lab-34.png)
 
-El siguiente elemento a desarrollar es otro segmentador usando los datos `Region` | `Region`, debe tener un estilo de lista. Ubícalo en el espacio designado.
+El siguiente elemento a desarrollar es otro segmentador usando los datos `Region | Region`, debe tener un estilo de lista. Ubícalo en el espacio designado.
 
 ![Borrador de la pagina overview.](./imgs/Lab-35.png)
 
-Generarás ahora el objeto visual `columnas apiladas y lineas` usando los datos `Date` | `Month`, `Sales` | `Sales` y `Sales` | `Profit margin`. Modifica el aspecto del objeto visual para que muestre información incluso para los meses que no tienen valores. Colócalo en la ubicación marcada.
+Generarás ahora el objeto visual `columnas apiladas y lineas` usando los datos `Date | Month`, `Sales | Sales` y `Sales | Profit margin`. Modifica el aspecto del objeto visual para que muestre información incluso para los meses que no tienen valores. Colócalo en la ubicación marcada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-36.png)
 
-Generarás ahora el objeto visual `columnas apiladas` usando los datos `Region` | `Group`, `Sales` | `Sales` y `Product` | `Category`. Colócalo en la ubicación marcada.
+Generarás ahora el objeto visual `columnas apiladas` usando los datos `Region | Group`, `Sales | Sales` y `Product | Category`. Colócalo en la ubicación marcada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-37.png)
 
-Generarás ahora el objeto visual `barras apiladas` usando los datos `Product` | `Category`, `Sales` | `Quantity`, modifica el aspecto para permitir las etiquetas de los datos y cambia el color de las barras a un tono parecido a la linea que se muestra en gráfico superior. Colócalo en la ubicación marcada.
+Generarás ahora el objeto visual `barras apiladas` usando los datos `Product | Category`, `Sales | Quantity`, modifica el aspecto para permitir las etiquetas de los datos y cambia el color de las barras a un tono parecido a la linea que se muestra en gráfico superior. Colócalo en la ubicación marcada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-32.png)
 
@@ -53,11 +53,11 @@ Se pide elaborar una segunda página para el reporte, por lo que debes agregar u
 
 ![Borrador de la pagina overview.](./imgs/Lab-38.png)
 
-Comenzando con la primer visualización, agregarás un segmentador usando los datos `Region` | `Region`. Considera que es posible ver los datos de más de una región al mismo tiempo. Ubícalo en la posición marcada.
+Comenzando con la primer visualización, agregarás un segmentador usando los datos `Region | Region`. Considera que es posible ver los datos de más de una región al mismo tiempo. Ubícalo en la posición marcada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-39.png)
 
-Para la segunda visualización, mostrarás una matriz usando los datos `Date | Fiscal` en la sección de filas, los siguientes datos (provienen de la tabla Sales) irán en la sección de columnas: Orders, Sales, Cost, Profit, Profit Margin.
+Para la segunda visualización, mostrarás una matriz usando los datos `Date | Fiscal` en la sección de filas, los siguientes datos (provienen de la tabla `Sales`) irán en la sección de columnas: `Orders`, `Sales`, `Cost`, `Profit`, `Profit Margin`.
 
 ![Borrador de la pagina overview.](./imgs/Lab-38.png)
 
