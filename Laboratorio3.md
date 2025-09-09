@@ -9,7 +9,7 @@ Al finalizar la práctica, serás capaz de:
 
 ## Duración aproximada
 
-60 minutos.
+- 60 minutos.
 
 ## Objetivo visual
 
