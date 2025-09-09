@@ -16,7 +16,7 @@ Dependiendo de la experiencia previa que tengas en Power BI, la duración de est
 ![Actividades a realizar.](./imgs/Diagrama%20Ejercicio%203.png)
 
 
-## Tarea 1. Página Overview
+### Tarea 1. Página Overview
 
 Se requiere elaborar un informe de tres páginas usando Power BI. 
 
@@ -49,7 +49,7 @@ Se requiere elaborar un informe de tres páginas usando Power BI.
 ![Borrador de la pagina overview.](./imgs/Lab-32.png)
 
 
-## Tarea 2. Página Profit
+### Tarea 2. Página Profit
 
 **Paso 1.** Para elaborar la segunda página del reporte, debes agregar una nueva página al reporte de Power BI y renombrarla como `Profit`. El boceto de la página será similar a la siguiente imagen.
 
@@ -71,7 +71,7 @@ Se requiere elaborar un informe de tres páginas usando Power BI.
 * `Product | Color`
 
 
-## Tarea 3. Página My Profit
+### Tarea 3. Página My Profit
 
 **Paso 1.** Para elaborar la última página del reporte, debes agregar una nueva página al reporte de Power BI y renombrarla como `My Profit`. El boceto de la página será similar a la siguiente imagen.
 
@@ -110,5 +110,7 @@ Agrega un segmentador basándote en los datos `Date | Year`. Ubícalo en la posi
 **Paso 5.**  Abre el navegador Microsoft Edge y dirígete a https://app.powerbi.com.
 
 **Paso 6.**  En el servicio Power BI, ingresa a `Mi espacio de trabajo` para verificar que el contenido se haya publicado.
+
+## Resultado esperado
 
 Al publicar el informe, el modelo de datos y el informe fueron cargados al servicio de Power BI. Al abrir el informe verás practicamente lo mismo que desarrollaste en Power Bi Desktop, ahora en el servicio de Power BI.
