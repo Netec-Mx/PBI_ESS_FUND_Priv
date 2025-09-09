@@ -18,7 +18,7 @@ Dependiendo la experiencia previa que tenga Power BI, puede que algunas de estas
 
 # Página Overview
 
-Nos piden elaborar un informe de 3 páginas usando Power BI, primero elaboraremos la página overview cambiando el nombre predeterminado de la página 1 por Overview, el boceto de cómo estarán distribuidos los elementos lo podemos ver en la siguiente imagen.
+Se requiere elaborar un informe de 3 páginas usando Power BI. Primero, realiza la página overview cambiando el nombre predeterminado de la página 1 por Overview. El boceto de la distribución de los elementos lo puedes ver en la siguiente imagen.
 
 ![Borrador de la pagina overview.](./imgs/Lab-32.png)
 
@@ -57,56 +57,56 @@ Comenzando con la primer visualización, agregarás un segmentador usando los da
 
 ![Borrador de la pagina overview.](./imgs/Lab-39.png)
 
-Para la segunda visualización mostraremos una matriz usando los datos `Date` | `Fiscal` en la sección de filas, los siguientes datos irán en la sección de columnas (Todos estos datos son de la tabla Sales): Orders, Sales, Cost, Profit, Profit Margin.
+Para la segunda visualización, mostrarás una matriz usando los datos `Date | Fiscal` en la sección de filas, los siguientes datos (provienen de la tabla Sales) irán en la sección de columnas: Orders, Sales, Cost, Profit, Profit Margin.
 
 ![Borrador de la pagina overview.](./imgs/Lab-38.png)
 
-Nos piden por último agregar a los filtros de Power BI los siguientes criterios aplicándolos a nivel de página.
+Se requiere, por último, agregar a los filtros de Power BI los siguientes criterios aplicándolos a nivel de página.
 
-* Product | Category
-* Product | Subcategory
-* Product | Product
-* Product | Color
+* `Product | Category`
+* `Product | Subcategory`
+* `Product | Product`
+* `Product | Color`
 
 
 # Página My Profit
 
-Nos piden elaborar la última página para el reporte, por lo que debemos agregar una nueva página al reporte de Power BI y renómbrala como My Profit. El boceto de la página será a lo mostrado en la siguiente imagen.
+Para elaborar la última página del reporte, debes agregar una nueva página al reporte de Power BI y renómbrala como `My Profit`. El boceto de la página será similar a la siguiente imagen.
 
 ![Borrador de la pagina overview.](./imgs/Lab-310.png)
 
-Agrega un filtro dentro de Power BI a nivel de esta página para filtrar la información con base al criterio `Salesperson (Performance)` | `Salesperson` y selecciona a `Michael Blythe`.
+Agrega un filtro dentro de Power BI a nivel de esta página para filtrar la información con base en el criterio `Salesperson (Performance) | Salesperson` y selecciona a `Michael Blythe`.
 
-Agrega un segmentador basándonos en los datos `Date` | `Year` ubícalo en la posición designada y prueba a filtrar los valores por un año en particular.
+Agrega un segmentador basándote en los datos `Date | Year`. Ubícalo en la posición designada y prueba a filtrar los valores por un año en particular.
 
 ![Borrador de la pagina overview.](./imgs/Lab-311.png)
 
-Añade un objeto visual del tipo `Tarjeta de varias filas` considerando los siguientes valores: `Sales` | `Sales`, `Targets` | `Target`, `Targets` | `Variance`, `Targets` | `Variance Margin`. Cambia el formato de este visual para que el color de fondo sea un tono gris claro y que el tamaño fuente de los valores sea de 28pt. Ubícalo en la posición marcada.
+Añade un objeto visual del tipo `Tarjeta de varias filas` considerando los siguientes valores: `Sales | Sales`, `Targets | Target`, `Targets | Variance`, `Targets | Variance Margin`. Cambia el formato de este visual para que el color de fondo sea un tono gris claro y que el tamaño fuente de los valores sea de 28 puntos. Ubícalo en la posición marcada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-312.png)
 
-Agrega un objeto visual del tipo `barras apiladas` usando los datos `Date` | `Month`,
-`Sales` | `Sales` y `Targets` | `Target`. Colócalo en la ubicación designada.
+Agrega un objeto visual del tipo `Barras apiladas` usando los datos `Date | Month`,
+`Sales | Sales` y `Targets | Target`. Colócalo en la ubicación designada.
 
 ![Borrador de la pagina overview.](./imgs/Lab-313.png)
 
-Copia y pega esta última visualización justo al lado de la original, cambiando el tipo de objeto visual a `columnas apiladas` 
+Copia y pega esta última visualización justo al lado de la original, cambiando el tipo de objeto visual a `Columnas apiladas` 
 
 ![Borrador de la pagina overview.](./imgs/Lab-310.png)
 
 # Modificaciones y publicación
 
-Regresa a la página Overview y cambia el valor del segmentador de los años a otro valor, por ejemplo el año fiscal 2018. Posteriormente cambia a la página My performance, ¿Coinciden los valores?
+Regresa a la página Overview y cambia el valor del segmentador de los años a otro valor, por ejemplo el año fiscal 2018. Posteriormente, cambia a la página `My performance`. ¿Coinciden los valores?
 
-Regresa a la página Overview y seleccionando el segmentador selecciona la opción de sincronización de segmentadores para sincronizar los datos entre estas dos páginas. Haz algo parecido pero con el otro segmentador para sincronizar los datos para la página Profit.
+Regresa a la página `Overview`, selecciona el segmentador y la opción de sincronización de segmentadores para sincronizar los datos entre estas dos páginas. Haz algo parecido pero con el otro segmentador para sincronizar los datos para la página `Profit`.
 
 
-Abra el navegador dentro de la maquina virtual y vaya a https://app.powerbi.com. Inicie sesión con las credenciales del inquilino de Microsoft 365 proporcionadas para desarrollar el laboratorio.
+Abra el navegador dentro de la Máquina virtual y dirígete a https://app.powerbi.com. Inicia sesión con las credenciales del inquilino de Microsoft 365 proporcionadas para desarrollar el laboratorio.
 
-Dentro de Power Bi desktop en la pestaña Inicio seleccione Publicar y guarde el reporte en `Mi espacio de trabajo`
+Dentro de Power Bi Desktop, en la pestaña `Inicio` selecciona `Publicar` y guarda el reporte en `Mi espacio de trabajo`
 
-Abra el navegador Microsoft Edge y vaya a https://app.powerbi.com.
+Abre el navegador Microsoft Edge y dirígete a https://app.powerbi.com.
 
-En el servicio Power BI, ingrese a `Mi espacio de trabajo` para verificar que el contenido fue publicado.
+En el servicio Power BI, ingresa a `Mi espacio de trabajo` para verificar que el contenido se haya publicado.
 
 Al publicar el informe, el modelo de datos y el informe fueron cargados al servicio de Power BI. Al abrir el informe verás practicamente lo mismo que desarrollaste en Power Bi Desktop, ahora en el servicio de Power BI.
