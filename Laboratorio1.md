@@ -75,7 +75,7 @@ De estas observaciones que has detectado, en el siguiente ejercicio harás algun
 
 ## Resultado esperado
 
-Hasta este punto, deberás contar con 8 consultas cargadas en Power Query. Puedes corroborar dichas consultas y el contenido que deben contener con las siguientes imágenes de referencia.
+Hasta este punto, deberás contar con ocho consultas cargadas en Power Query. Puedes corroborar dichas consultas y el contenido que deben contener con las siguientes imágenes de referencia.
 
 ### Resultado ColorFormats
 ![Resultado ColorFormats.](./imgs/Lab-14.png)
