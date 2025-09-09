@@ -27,7 +27,7 @@ Entre algunas de las transformaciones comunes que puedes observar de las distint
 - Seleccionar las columnas a eliminar o mantener.
 
 ### Tarea 1. Renombrar las consultas
-En este paso, cambiarás el nombre de las consultas. Algunas de ellas utilizan prefijos como Dim o Fact, los cuales, aunque no son difíciles de comprender, pueden resultar poco claros para personas que no están familiarizadas con el análisis de datos, por lo que se ha decidido homologar de la siguiente de manera.
+En este paso, cambiarás el nombre de las consultas. Algunas de ellas utilizan prefijos como `Dim` o `Fact`, los cuales, aunque no son difíciles de comprender, pueden resultar poco claros para personas que no están familiarizadas con el análisis de datos, por lo que se ha decidido homologar de la siguiente de manera.
 
 - `ColorFormats` (no es necesario cambiar nada)
 - `DimEmployee` pasará a llamarse `Salesperson`
