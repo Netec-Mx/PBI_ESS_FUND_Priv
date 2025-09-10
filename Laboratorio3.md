@@ -103,7 +103,7 @@ Agrega un segmentador basándote en los datos `Date | Year`. Ubícalo en la posi
 **Paso 2.** Regresa a la página `Overview`, selecciona el segmentador y la opción de sincronización de segmentadores para sincronizar los datos entre estas dos páginas. Haz algo parecido, pero con el otro segmentador para sincronizar los datos para la página `Profit`.
 
 
-**Paso 3.** Abre el navegador dentro de la Máquina virtual y dirígete a https://app.powerbi.com. Inicia sesión con las credenciales del inquilino de Microsoft 365 proporcionadas para desarrollar el laboratorio.
+**Paso 3.** Abre el navegador dentro de la máquina virtual y dirígete a https://app.powerbi.com. Inicia sesión con las credenciales del inquilino de Microsoft 365 proporcionadas para desarrollar el laboratorio.
 
 **Paso 4.** Dentro de Power Bi Desktop, en la pestaña `Inicio` selecciona `Publicar` y guarda el reporte en `Mi espacio de trabajo`
 
