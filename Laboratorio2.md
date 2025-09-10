@@ -16,7 +16,7 @@ Al finalizar la práctica, serás capaz de:
 
 ![Actividades a realizar.](./imgs/Diagrama%20Ejercicio%202.png)
 
-## Transformar los datos
+## Instrucciones: transformar los datos
 
 Recuerda que las consultas que se han seleccionado del ejercicio pasado presentan una serie de inconvenientes que se deben corregir para trabajar los datos. Adicionalmente, no es necesaria toda la información que se acaba de seleccionar dentro de Power BI, por lo que, para optimizar el proceso, se tendrán que eliminar algunos datos irrelevantes para este análisis. 
 
