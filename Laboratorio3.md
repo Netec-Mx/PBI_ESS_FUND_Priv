@@ -13,7 +13,7 @@ Al finalizar la práctica, serás capaz de:
 
 ## Objetivo visual
 
-![Actividades a realizar.](./imgs/Diagrama%20Ejercicio%203.png)
+![Actividades a realizar.](./imgs/Diagrama%20Ejercicios%203.png)
 
 
 ### Tarea 1. Página Overview
