@@ -42,9 +42,10 @@ En este paso, cambiarás el nombre de las consultas. Algunas de ellas utilizan p
 
 
 ### Tarea 2. Transformar las consultas
-* __Consulta ColorFormats__ 
+
+__Consulta ColorFormats__ 
   
-    ![Consulta ColorFormats inicio.](./imgs/Lab-22.png)
+![Consulta ColorFormats inicio.](./imgs/Lab-22.png)
 
 Recordando las observaciones que lograste detectar del ejercicio pasado, ahora realizarás las transformaciones necesarias para dejar los datos listos. En ese sentido y con el fin de homologar los pasos para transformar los datos, se enlistan las acciones a realizar.
 - Hay dos filas vacías que se deben eliminar.
