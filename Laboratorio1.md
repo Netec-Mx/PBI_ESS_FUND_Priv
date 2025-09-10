@@ -14,7 +14,7 @@ Al finalizar la práctica, serás capaz de:
 
 ![Actividades a realizar.](./imgs/Diagrama%20Ejercicio%201.png)
 
-## Obtener los datos
+## Instrucciones: obtener los datos
 
 Antes de crear el reporte, es necesario tener acceso a los datos para poder manipularlos.
 
