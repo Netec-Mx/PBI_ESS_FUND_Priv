@@ -15,6 +15,7 @@ Al finalizar la práctica, serás capaz de:
 
 ![Actividades a realizar.](./imgs/Diagrama%20Ejercicios%203.png)
 
+## Instrucciones
 
 ### Tarea 1. Página Overview
 
