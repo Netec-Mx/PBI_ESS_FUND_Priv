@@ -93,7 +93,7 @@ Agrega un segmentador basándote en los datos `Date | Year`. Ubícalo en la posi
 
 ![Borrador de la pagina overview.](./imgs/Lab-313.png)
 
-**Paso 5.** Copia y pega esta última visualización justo al lado de la original, cambiando el tipo de objeto visual a `Columnas apiladas` 
+**Paso 5.** Copia y pega esta última visualización justo al lado de la original, cambiando el tipo de objeto visual a `Columnas apiladas`.
 
 ![Borrador de la pagina overview.](./imgs/Lab-310.png)
 
@@ -106,7 +106,7 @@ Agrega un segmentador basándote en los datos `Date | Year`. Ubícalo en la posi
 
 **Paso 3.** Abre el navegador dentro de la máquina virtual y dirígete a https://app.powerbi.com. Inicia sesión con las credenciales del inquilino de Microsoft 365 proporcionadas para desarrollar el laboratorio.
 
-**Paso 4.** Dentro de Power Bi Desktop, en la pestaña `Inicio` selecciona `Publicar` y guarda el reporte en `Mi espacio de trabajo`
+**Paso 4.** Dentro de Power Bi Desktop, en la pestaña `Inicio` selecciona `Publicar` y guarda el reporte en `Mi espacio de trabajo`.
 
 **Paso 5.**  Abre el navegador Microsoft Edge y dirígete a https://app.powerbi.com.
 
