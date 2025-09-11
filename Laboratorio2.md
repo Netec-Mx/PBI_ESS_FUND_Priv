@@ -43,7 +43,7 @@ En este paso, cambiarás el nombre de las consultas. Algunas de ellas utilizan p
 
 ### Tarea 2. Transformar las consultas
 
-__Consulta ColorFormats__ 
+**Paso 1.** Consulta ColorFormats.
   
 ![Consulta ColorFormats inicio.](./imgs/Lab-22.png)
 
@@ -57,7 +57,7 @@ Recordando las observaciones que lograste detectar del ejercicio pasado, ahora r
 ---
 
 
-__Consulta Salesperson__
+**Paso 2.** Consulta Salesperson.
 
 ![Consulta Salesperson inicio.](./imgs/Lab-24.png)
 
@@ -81,7 +81,7 @@ Se pide, por último, cambiar la columna `EmailAddress` por `UPN`.
 ---
 
 
-__Consulta SalespersonRegion__  
+**Paso 3.** Consulta SalespersonRegion.
 
 ![Consulta SalespersonRegion inicio.](./imgs/Lab-26.png)
 
@@ -93,7 +93,7 @@ Solamente tienes que quitar las filas en blanco y promover los encabezados, camb
 ---
 
 
-__Consulta Product__
+**Paso 4.** Consulta Product.
 
 ![Consulta Product inicio.](./imgs/Lab-28.png)
 
@@ -114,7 +114,7 @@ Esta es una consulta con más contenido y carga de columnas, por lo que necesita
 ---
 
 
-__Consulta Reseller__
+**Paso 5.** Consulta Reseller.
 
 ![Consulta Reseller inicio.](./imgs/Lab-210.png)
 Esta es una consulta con más contenido y más carga de columnas, así que necesitas acotar qué columnas conservar, por lo que uno de estos pasos será promover los encabezados y, posteriormente, seleccionar qué columnas mantener.
@@ -132,7 +132,7 @@ Recuerda que, en esta tabla, los valores que se presentaban en la columna `Bussi
 ---
 
 
-__Consulta Region__
+**Paso 6.** Consulta Region.
 
 ![Consulta Region inicio.](./imgs/Lab-212.png)
 
@@ -145,7 +145,7 @@ __Consulta Region__
 ---
 
 
-__Consulta Sales__
+**Paso 7.** Consulta Sales.
 
 ![Consulta Sales inicio.](./imgs/Lab-214.png)
 
@@ -171,7 +171,7 @@ Debes marcar las tres columnas que indican el precio unitario, el costo del prod
 ---
 
 
-__Consulta Targets__
+**Paso 8.** Consulta Targets.
 
 ![Consulta Targets inicio.](./imgs/Lab-216.png)
 
